@@ -1,0 +1,35 @@
+/* -----------------
+		Geral
+--------------------*/
+body {
+	font-family: Arial,sans-serif;
+}
+
+.center-block {  
+  display: block;  
+  margin-right: auto;  
+  margin-left: auto;  
+}  
+
+/* -----------------
+		Início
+--------------------*/
+.foto-perfil {
+	position: relative;
+	width: 250px;
+  height: 250px;
+  display: block;
+  overflow: hidden;
+  border: 7px solid rgba(0,0,0,0.2);
+  border-radius: 85px;
+}
+
+.foto-perfil img {
+	position: absolute;
+  height: auto;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
+}
