@@ -2,9 +2,9 @@ $(document).ready(function() {
 	/* Fullpage Initialization */
 	$('#fullpage').fullpage({
 		navigation: true,
-    sectionsColor: ['#83DBF1', '#5b5b5b', '#7BAABE', 'whitesmoke', '#ccddff'],
-    anchors: ['inicio', 'sobre', 'habilidades', 'projetos', 'curriculo', 'contato'],
-    navigationTooltips: ['Início', 'Sobre', 'Projetos', 'Currículo', 'Contato'],
+    sectionsColor: ['#83DBF1', '#5b5b5b', '#7BAABE', 'whitesmoke'],
+    anchors: ['inicio', 'sobre', 'projetos', 'contato'],
+    navigationTooltips: ['Início', 'Sobre', 'Projetos', 'Contato'],
     menu: '#menu',
     css3: true,
     // Scrolling
