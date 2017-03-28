@@ -172,3 +172,10 @@ p {
 .view-first:hover a.info {
   transition-delay: 0.2s;
 }
+
+/* -----------------
+		Contato
+--------------------*/
+.contato iframe {
+	width: 100%;
+}
