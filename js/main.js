@@ -1,8 +1,10 @@
 $(document).ready(function() {
 	/* Fullpage Initialization */
 	$('#fullpage').fullpage({
-    sectionsColor: ['#83DBF1', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+		navigation: true,
+    sectionsColor: ['#83DBF1', '#5b5b5b', '#7BAABE', 'whitesmoke', '#ccddff'],
     anchors: ['inicio', 'sobre', 'habilidades', 'projetos', 'curriculo', 'contato'],
+    navigationTooltips: ['Início', 'Sobre', 'Projetos', 'Currículo', 'Contato'],
     menu: '#menu',
     css3: true,
     // Scrolling

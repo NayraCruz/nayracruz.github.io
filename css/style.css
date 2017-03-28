@@ -9,7 +9,25 @@ body {
   display: block;  
   margin-right: auto;  
   margin-left: auto;  
-}  
+}
+
+h1.destaque {
+	font-size: 58px;
+}
+
+h2.title-description {
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+}
+
+h2.title-description.bg-warning, h1.bg-warning {
+	padding: 15px;
+}
+
+p {
+	font-size: 16px;
+}
 
 /* -----------------
 		Início
